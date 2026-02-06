@@ -1,0 +1,7 @@
+﻿services:
+  dullahan.cms.webapi:
+    image: dullahan.cms.webapi
+    build:
+      context: .
+      dockerfile: Dullahan.Cms.WebApi/Dockerfile
+
